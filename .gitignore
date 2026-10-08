@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.*
+
+# AWS credentials
+.aws/
+credentials
+config
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Lambda temporary files
+/tmp/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local data files
+*.csv
+*.xlsx
+*.xls
+
+# ZIP deployment packages
+*.zip
